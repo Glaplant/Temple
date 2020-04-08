@@ -10,7 +10,9 @@
     }
 
   
-    
+    .logo_width{
+        max-width:100%;
+    }
     
     body{
         width:100%;
@@ -26,16 +28,16 @@
         padding:3em;
     }
 
-  
 
-    #slc{
+
+    .slc{
        display:flex;
        justify-content:center;
 
        
     }
 
-    #slcpositioning{
+    .slcpositioning{
         width:100%;
     }
 
@@ -66,15 +68,127 @@
         margin-left:auto;
         margin-right:auto;
     }
+
+
 /*---Hero Image--*/
 
 
+.heroimage{
+    max-width:100%;
+    width:100%;
+
+}
+
+.page_flex{
+    display:flex;
+    flex-direction: column;
+}
+
+ /** Cards**/
+
+
+
+ .card{
+    margin-top:2em;
+    margin-bottom:2em;
+    background-color:#A56935;
+    box-shadow: 1px 10px 10px #595c65;
+    width:60%;
+    
+               
+
+}
+
+.header_text{
+    color:white;
+    text-align:center;
+    margin:0;
+    padding:.5rem;
+    border-bottom: solid .5rem #595c65;
+  
+    
+    
+
+
+}
+
+
+.card_flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imageposition{
+    
+    width: 100%;
+   
+    max-height: 100%;
+    height: 100%;
+    max-width: 100%;
+
+}
+
+
+.textbox h2{
+    font-family:"Open Sans", sans-serif ;
+    font-weight:700;
+    margin:0;
+
+ }
+
+.textbox{
+font-family:"Open Sans", sans-serif ;
+font-weight:300;
+background-color:white;
+padding:1em;
+height:auto;
+max-height:100%;
+
+}
+
+.textbox li{
+display:block;
+font-weight:600;
+}
+
+.textbox ul{
+
+list-style-type:none;
+
+padding:0;
+margin:0;
+}
+
+.textbox ul li a{
+font-family:'Open Sans', sans-serif;
+color:#000;
+font-weight:700;
+display:block;
+
+}
+
+.textbox ul li a:hover{
+color:#A56935;
+
+
+}
+
+
+.textbox ul li a:active{
+color:white;
+background-color:grey;
+}
+     
 
 
 
 
 
-@media screen and  (min-width:320px) {
 
 
 
@@ -144,61 +258,15 @@
               }
               /*home*/
               
-           #width{
-                width:85%;
+           .width{
+                width:60%;
+                height:50%;
                 margin-left:auto;
                 margin-right:auto;
                  }
 
 
 
-                 .textbox h2{
-                    font-family:"Open Sans", sans-serif ;
-                    font-weight:700;
-                    padding-bottom:.5em;
-
-                 }
-
-           .textbox{
-               font-family:"Open Sans", sans-serif ;
-               font-weight:300;
-               line-height: 1.5em;
-               background-color:white;
-               padding:1em;
-               box-shadow:-1px 1px 20px #595c65;
-           }
-
-           .textbox li{
-               display:block;
-               font-weight:600;
-           }
-
-           .textbox ul{
-             
-               list-style-type:none;
-               margin-top:1em;
-               padding:0;
-           }
-
-           .textbox ul li a{
-               font-family:'Open Sans', sans-serif;
-               color:#000;
-               font-weight:700;
-               display:block;
-               text-decoration:underline;
-           }
-
-           .textbox ul li a:hover{
-               color:white;
-               background-color:grey;
-
-        }
-
-
-           .textbox ul li a:active{
-            color:white;
-            background-color:grey;
-           }
 
 
            #hotel{
@@ -207,81 +275,19 @@
            margin-top:1.5em;
            }
 
-@media screen and (min-width:376px){
-   
-    #sandiego {
-        font-size:4em;
-    }
+           .hide_small{
+            display:none;
+        }
 
 
 
 
-    .imageposition{
-    margin-top:-2.7em;
-    }
+.hide_small{
+    display:none;
 }
 
-
-@media screen and (min-width:320px) and (max-width:375px){
-
-    #sandiego, #welcome {
-        font-size:2em;
-    }
-
-
-    .border h1, .border h2 {
-        font-size:2em;
-        padding:0;
-        padding-top:.2em;
-        padding-left:.3em;
-    }
-
-
-
-    .imageposition{
-       
-        margin-top:-1.3em;
-
-        
-
-    }
-
-}
-         
-
-         .border h1, .border h2 {
-            font-size:4em;
-            color:white;
-            border-bottom: solid white 3px;
-            padding:0;
-            padding-top:.2em;
-            padding-left:.3em;
-          }
-
-          .brownbox{
-              margin-top:2em;
-              margin-bottom:2em;
-              background-color:#A56935;
-              border-top-right-radius:20px;
-              border-top-left-radius:20px;
-
-          }
-
-          .imageposition{
-              width:100%;
-              padding:0;
-              border-top:solid 1em #595c65;
-             
-
-              
-
-          }
-          
-
-
-
-
-                        /*--temple page--*/
+ 
+            /*--temple page--*/
               .graybox{
 
                 background-color: rgba(34,33,38, 0.5);
@@ -300,9 +306,9 @@
                 
              }
 
-        }
+       
 
-@media screen and (max-width:600px){
+
  
     
 /*-----Header-------*/
@@ -310,7 +316,6 @@
 
    
 /*-----NAV-------*/
-
 
 
 
@@ -336,9 +341,7 @@ nav ul.hide{
 
 
 /*-----Main-------*/
-main{
 
-}
 
 
 
@@ -438,7 +441,7 @@ select{
 /*--Services--*/
 /*--contact---*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:37.5rem){
    #margin{
 
        width:90%;
@@ -459,4 +462,3 @@ select{
 
 
 
-}

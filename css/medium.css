@@ -1,4 +1,6 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 30rem){
+
+/*NAVIGATION*/
 
 nav button{
        
@@ -7,17 +9,23 @@ nav button{
 
     nav{
 
-        display:flex;
-        justify-content: space-evenly;
-        flex-direction: row;
+       
         position:sticky;
         top:0;
        
+       
     }
+
 
     nav ul{
         padding:0;
         margin:0;
+    }
+
+    nav ul.hide{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
     }
 
 
@@ -30,12 +38,83 @@ nav button{
 
 nav ul li {
     display:inline-block;
+  
+
+}
+
+nav ul li a{
+    
+    border:none;
 
 }
 
 
 
-@media screen and (min-width:600px) and (max-width:693px){
+/*********/
+
+/*reveals things hidden in the small view*/
+.hide_small{
+    display:initial;
+}
+
+/*flex cards direction change to row*/
+.page_flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width:45%;
+}
+
+.horizontal_width{
+    width:100%;
+    max-width:100%;
+    height:100%;
+    max-height:100%;
+}
+
+
+@media screen and (min-width:80rem){
+ /** Cards**/
+
+.card_flex{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.card{
+    width:45%;
+    position:relative;
+    padding-top:3rem;
+}
+
+.header_text{
+    margin:0;
+    padding-top:.5rem;
+    padding-left:.5rem;
+    position:absolute;
+    top:0;
+    left:0;
+    border:none;
+    
+    
+}
+
+/*prevents overflow*/
+.textbox{
+    height:auto;
+    width:20rem;
+   
+}
+
+
+
+@media screen and (min-width:37.5rem) {
     nav ul li a{
         display:inline-block;
         border-top:none;
@@ -46,7 +125,7 @@ nav ul li {
     }
     } 
 
-@media screen and (min-width:694px) and (max-width:767px){
+@media screen and (min-width:43.375rem){
     nav ul li a{
         display:inline-block;
         border-top:none;
@@ -57,7 +136,7 @@ nav ul li {
     }
     }  
 
-@media screen and (min-width:768px) and (max-width:865px){
+@media screen and (min-width:48rem){
     nav ul li a{
         display:inline-block;
         border-top:none;
@@ -68,7 +147,7 @@ nav ul li {
     }
     }  
 
-@media screen and (min-width:866px) and (max-width:1201px){
+@media screen and (min-width:54.125rem){
     nav ul li a{
         display:inline-block;
         border-top:none;
@@ -79,7 +158,7 @@ nav ul li {
     }
     }
 
-@media screen and (min-width:1202px){
+@media screen and (min-width:75.125rem){
 nav ul li a{
     display:inline-block;
     border-top:none;
@@ -179,7 +258,7 @@ select{
     font-family:'Open Sans',sans-serif;
 }
 
-@media screen and (min-width:746px){
+@media screen and (min-width:46.625rem){
 #flexform{
     display:flex;
     justify-content:space-between;
@@ -198,7 +277,7 @@ iframe{
 
 }
 
-@media screen and (min-width:960px){
+@media screen and (min-width:60rem){
 
     #flexcontact{
     display:flex;
@@ -208,7 +287,7 @@ iframe{
 }
 
 
-@media screen and (min-width:780px) and (max-width:960px){
+@media screen and (min-width:48.75rem){
 
 
     #flexcontact{
@@ -224,7 +303,7 @@ iframe{
 }
 
 
-@media screen and (max-width:780px){
+@media screen and (max-width:48.75rem){
 
 
     #flexcontact{
@@ -251,4 +330,5 @@ iframe{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
 
+}
 }

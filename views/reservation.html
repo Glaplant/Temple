@@ -6,11 +6,11 @@
             <meta name="description" content="temple suites">
             
               <title>Temple Inn and Suites</title>
-              <link href="css/normalize.css" type="text/css" rel="stylesheet">
-             <link href="css/small.css" type="text/css" rel="stylesheet">
-             <link href="css/medium.css" type="text/css" rel="stylesheet">
-             <link href="css/large.css" type="text/css" rel="stylesheet">
-              <script src="scripts/hamburger.js"></script>
+              <link href="../css/normalize.css" type="text/css" rel="stylesheet">
+             <link href="../css/small.css" type="text/css" rel="stylesheet">
+             <link href="../css/medium.css" type="text/css" rel="stylesheet">
+             <link href="../css/large.css" type="text/css" rel="stylesheet">
+              <script src="../scripts/hamburger.js"></script>
     </head>
     <body>
             <!----The reservation page contains a form that collects relevant information when making 
@@ -21,47 +21,48 @@
              <header>
 
                     <picture>
-                        <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
-                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
-                        <source media="(max-width: 600px)" srcset="images/logo274x53.png">
-                        <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+                        <source media="(min-width: 961px)" srcset="../images/logo1062x107.png">
+                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="../images/logo547x69.png">
+                        <source media="(max-width: 600px)" srcset="../images/logo274x53.png">
+                        <img src="../images/logo274x53.png" alt= "temple inn and suites logo">
                     </picture>
                    
                 </header>
     <nav>
             <button onclick="toggleMenu()">&#9776;</button>
-
             <ul  id="primaryNav" class="hide">
-                    <li class="active">
-                        <a href="index.html">Home</a> 
-                    </li>
-                    <li class="active">
-                        <a href="temple.html">Temple</a>
-                    </li>
-                    <li class="active">
-                        <a href="reservation.html">Reservations</a>
-                    </li>
-                    
-                    <li class="active">
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li class="active">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    
-        </ul>
+                <li class="active">
+                    <a href="../index.html">Home</a> 
+                </li>
+                <li class="active">
+                    <a href="temple.html">Temple</a>
+                </li>
+                <li class="active">
+                    <a href="reservation.html">Reservations</a>
+                </li>
+                <li class="active">
+                    <a href="services.html">Services</a>
+                </li>
+                <li class="active">
+                    <a href="contact.html">Contact</a>
+                </li>
+          </ul>
     </nav>
+    <div class="heroimage">
+        <picture>
+               <source media="(min-width:961px)" srcset="../images/slc1280x400.jpg">
+               <source media="(min-width:601px) and (max-width:960px)" srcset="../images/slc960x300.jpg">
+               <source media="(min-width:600px)" srcset="../images/slc600w.jpg">
+               <img class="slcpositioning" src="../images/slc600w.jpg" alt="saltlake city temple">
+           </picture>
+
+       </div> 
 
    
     <main>
-            <picture id="slc" >
-                    <source media="(min-width:961px)" srcset="images/slc1280x400.jpg">
-                    <source media="(min-width:601px) and (max-width:960px)" srcset="images/slc960x300.jpg">
-                    <source media="(min-width:600px)" srcset="images/slc600w.jpg">
-                    <img src="images/slc600w.jpg" alt="saltlake city temple">
-                </picture>
+     
                               <!--Display with flex-->
-     <form method="get" action="thanks.html">
+     <form method="POST" action="thanks.html">
 
             <div id="flexform">
             <fieldset id="flexparent1">
@@ -143,26 +144,11 @@
             </div>
 
             <!---location-->
-            
-            
-            
-            
-           
-            
-            
-            
-
-
-
-
-
-
-
         </form>
     </main>
     <footer>
 
-            <p> &copy; 2019 | Greg La Plant | <span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
+            <p> &copy; 2019 | Greg La Plant | <span>interstice Design</span></p>
     
         </footer>
     </body>
