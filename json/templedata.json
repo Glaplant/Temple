@@ -1,0 +1,93 @@
+{
+
+"temples":[
+
+   {
+
+  "name":"Palmyra",
+  "telephone":"1-315-597-6001",
+
+
+
+
+  "closures":[
+          "Closures", 
+          "Saturday, 6 April 2019",
+          "Thursday, 4 July 2019",
+          "Monday, 9 September 2019 - Saturday, 21 September 2019",
+          "Saturday, 5 October 2019",
+          "Thursday, 28 November 2019",
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019"
+              ]
+
+  
+        
+          },
+
+ {
+
+   "name":"Winter Quarters",
+   "telephone":"1-402-453-3406",
+
+   "closures":[
+             "Closures", 
+             "Saturday, 6th April 2019",
+             "Thursday, 4th July 2019",
+             "Sunday, 22nd September 2019-Monday, 7 October 2019",
+             "Wednesday, 27th November 2019 - Thursday, 28th November 20019",
+             "Tuesday, 24th December 2019 - Wednesday, 25 December 2019",
+             "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+              ]
+
+
+        },
+
+      {
+
+  
+
+    "name":"Nauvoo",
+    "telephone":"1-217-453-6252",
+ 
+
+    "closures":[  "Closures",   
+                  "Monday 29 April 2019 - Sunday,12 May 2019",
+                 "Saturday 5 October 2019",
+                 "Monday 11 November 2019 - Monday, 25 November 2019",
+                 "Wednesday 27 November 2019 - Thursday, 28 November 2019",
+                 "Wednesday 25 December 2019"
+               ]
+
+     
+              },
+
+
+
+ {
+
+            "name":"Kansas City",
+            "telephone":"1-816-413-1430",
+
+  
+    
+
+
+    "closures":[
+                "Closures", 
+                "Saturday 6 April 2019",
+                "Thursday 4 July 2019",
+                "Monday, 22 July 2019 - Monday, 5 August 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019"
+
+               ]
+
+
+            }
+          ]
+        }
+      

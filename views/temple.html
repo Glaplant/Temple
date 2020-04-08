@@ -1,0 +1,222 @@
+<!Doctype html>
+<html lang="en-us">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <meta name="description" content="temple suites">
+            <link href="css/normalize.css" type="text/css" rel="stylesheet">
+            <link href="css/small.css" type="text/css" rel="stylesheet">
+            <link href="css/medium.css" type="text/css" rel="stylesheet">
+           <link href="css/large.css" type="text/css" rel="stylesheet">
+           <title>Temple Inn and Suites</title>
+          <script src="scripts/nauvooWeather.js" > </script>
+          <script src="scripts/kansascityWeather.js" ></script>
+          <script src="scripts/palmyraWeather.js" ></script>
+           <script src="scripts/winterquartersWeather.js" ></script>
+           <script src="scripts/temples.js"></script>
+           <script src="scripts/hamburger.js"></script>
+    </head>
+    <body>
+            <!---The temple page describes the details for at least four temples of
+             your choice providing information about the address, telephone, email, 
+             services, history, ordinance schedule, session schedule, temple closure schedule 
+             (from a JSON source), and summary—current weather information obtained from a third party API. -->
+             <header>
+
+                    <picture>
+                        <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
+                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
+                        <source media="(max-width: 600px)" srcset="images/logo274x53.png">
+                        <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+                    </picture>
+                   
+                </header>
+    
+    <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+
+            <ul  id="primaryNav" class="hide">
+                    <li class="active">
+                        <a href="index.html">Home</a> 
+                    </li>
+                    <li class="active">
+                        <a href="temple.html">Temple</a>
+                    </li>
+                    <li class="active">
+                        <a href="reservation.html">Reservations</a>
+                    </li>
+                   
+                    <li class="active">
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                  
+        </ul>
+    </nav>
+    <main>
+
+            <picture id="slc" >
+                    <source media="(min-width:961px)" srcset="images/slc1280x400.jpg">
+                    <source media="(min-width:601px) and (max-width:960px)" srcset="images/slc960x300.jpg">
+                    <source media="(min-width:600px)" srcset="images/slc600w.jpg">
+                    <img src="images/slc600w.jpg" alt="saltlake city temple">
+                </picture>
+
+        <!---Current Weather Summary API-->
+         <!---JSON-->
+        <!---telephone-->
+        <!---email-->
+        <!---services-->
+        <!---history-->
+        <!---ordinaces-->
+        <!----session schedule--->
+        <!---temple closure schedule-->
+
+
+     <div id="width">                   <!---Winter Quarters-->
+      <div class="brownbox">
+        <div class="border">
+                <h2 id="name1">Winter Quarters</h2>
+            </div>
+            <div>
+            <picture>
+                    <source media="(min-width:601px)"  srcset= "images/wq600x400.jpg">
+                    <source media="(max-width:600px)" srcset="images/wq300x200.jpg">
+                    <img class="imageposition" src="images/wq300x200.jpg" alt="winter quarters temple"> 
+            </picture>     
+                             <!---JSON-->
+             <div class="textbox">
+                   
+                   <p id="telephone1">telephone</p>
+                <div id="article1"></div>
+                               <!---API-->
+              
+                    <h2>Current Weather</h2>
+                    <p id='current1'><span>&#8457;</span></p>
+                    <p id= 'maxtemp1'>Max Temp<span>&#8457;</span></p>
+                    <p id= 'mintemp1'>Min Temp<span>&#8457;</span></p>
+                    <p id='windspeed1'>WindSpeed<span>&#8457;</span></p>
+                    <p id='windchill1'>Windchill<span>&#8457;</span></p>
+                    <p id= 'humidity1'>Humidity</p>
+            </div>
+
+        </div>
+        </div>
+        
+
+                             <!---Palmyra--->
+       <div class="brownbox">
+          <div class="border">
+              <h2 id="name2">Palmyra</h2>
+          </div>
+          <div>
+             <picture>
+                
+                 <source media="(min-width:601px)" srcset="images/palmyra600x400.jpg">
+                 <source media="(min-width:600px)" srcset="images/palmyra300x200.jpg">
+                <img class="imageposition" src="images/palmyra300x200.jpg" alt="palmyra temple"> 
+              </picture>
+                    
+              <!---JSON-->
+              <div class=textbox>   
+               <p id="telephone2">telephone</p>
+               <div id="article2"></div>
+                
+       
+
+                             <!---API-->
+                   
+              
+                  <h2>Current Weather</h2>
+                  <p id= 'current2'>Current Temp<span>&#8457;</span></p>
+                  <p id= 'maxtemp2'>Max Temp<span>&#8457;</span></p>
+                  <p id= 'mintemp2'>Min Temp<span>&#8457;</span></p>
+                  <p id= 'windspeed2'>WindSpeed<span>&#8457;</span></p>
+                  <p id= 'windchill2'>Windchill<span>&#8457;</span></p>
+                  <p id= 'humidity2'>Humidity</p>
+             </div>
+          </div>
+          </div>
+
+                         <!---Nauvoo---> 
+             <div class="brownbox">
+                <div class="border"> 
+                   <h2 id="name3">Nauvoo</h2>
+                   
+            
+                </div>
+                <div>
+            <picture>
+                
+                <source media="(min-width:601px)" srcset="images/nauvoo600x400.jpg">
+                <source media="(min-width:600px)" srcset="images/nauvoo300x200.jpg">
+                <img class="imageposition" src="images/nauvoo300x200.jpg" alt="nauvoo temple"> 
+            </picture> 
+                           <!---JSON-->
+           <div class=textbox>
+                
+                <p id="telephone3">telephone</p>
+                <div id="article3"></div>
+            
+           
+                
+            
+            
+                          <!---API-->
+            
+                <h2>Current Weather</h2>
+                <p id= "current3">Current Temp<span>&#8457;</span></p>
+                <p id= "maxtemp3">Max Temp<span>&#8457;</span></p>
+                <p id= "mintemp3">Min Temp<span>&#8457;</span></p>
+                <p id= "windspeed3">WindSpeed<span>&#8457;</span></p>
+                <p id= "windchill3">Windchill<span>&#8457;</span></p>
+                <p id= "humidity3">Humidity</p>
+            </div>
+        </div>
+    </div>
+
+                        <!---Kansas City--->
+             <div class="brownbox">
+                <div class="border"> 
+                <h2 id="name4">Kansas City</h2>
+                </div>
+                <div>
+            <picture>
+                
+                <source media="(min-width:601px)" srcset="images/kc600x400.jpg">
+                <source media="(min-width:600px)" srcset="images/kc300x200.jpg">
+                <img class="imageposition" src="images/kc300x200.jpg" alt="kansas city temple"> 
+            </picture> 
+                           <!---JSON-->
+            <div class=textbox>
+                
+                <p id="telephone4">telephone</p>
+                <div id="article4"></div>
+            
+                           <!---API-->
+            
+                <h2>Current Weather</h2>
+                <p id="current4">Current Temp<span>&#8457;</span></p>
+                <p id="maxtemp4">Max Temp<span>&#8457;</span></p>
+                <p id="mintemp4">Min Temp<span>&#8457;</span></p>
+                <p id="windspeed4">WindSpeed<span>&#8457;</span></p>
+                <p id="windchill4">Windchill<span>&#8457;</span></p>
+                <p id="humidity4">Humidity</p>
+            </div>
+        </div>
+     </div>   
+    </div>
+        
+    </main>
+   
+            <footer>
+
+                    <p> &copy; 2019 | Greg La Plant | <span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
+            
+                </footer>
+
+    
+    </body>
+    </html>

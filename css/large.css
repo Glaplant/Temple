@@ -1,0 +1,16 @@
+@media screen and (min-width:960px){
+    #width{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:2em ;
+}
+
+
+fieldset{
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+   
+}
+}

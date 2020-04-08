@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="en-us">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <meta name="description" content="temple suites">
+            
+    <title>Temple Inn and Suites</title>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/small.css" type="text/css" rel="stylesheet">
+    <link href="css/medium.css" type="text/css" rel="stylesheet">
+    <link href="css/large.css" type="text/css" rel="stylesheet">
+    <script src="scripts/hamburger.js"></script>
+    </head>
+    <body>
+            <!----The contact page will contain essential contact information including an 
+            embedded Google map (Links to an external si
+            Links to an external site. showing the company headquarter address at
+             4800 Montgomery Ln #300, Bethesda, MD 20814 and a basic Contact Us form. -->
+             <header>
+
+                    <picture>
+                        <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
+                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
+                        <source media="(max-width: 600px)" srcset="images/logo274x53.png">
+                        <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+                    </picture>
+                   
+                </header>
+            <nav>
+                    <button onclick="toggleMenu()">&#9776;</button>
+        
+                    <ul  id="primaryNav" class="hide">
+                            <li class="active">
+                                <a href="index.html">Home</a> 
+                            </li>
+                            <li class="active">
+                                <a href="temple.html">Temple</a>
+                            </li>
+                            <li class="active">
+                                <a href="reservation.html">Reservations</a>
+                            </li>
+                
+                            <li class="active">
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li class="active">
+                                <a href="contact.html">Contact</a>
+                            </li>
+                          
+                </ul>
+            </nav>
+    
+    <main>
+            <picture id="slc" >
+                    <source media="(min-width:961px)" srcset="images/slc1280x400.jpg">
+                    <source media="(min-width:601px) and (max-width:960px)" srcset="images/slc960x300.jpg">
+                    <source media="(min-width:600px)" srcset="images/slc600w.jpg">
+                    <img src="images/slc600w.jpg" alt="saltlake city temple">
+                </picture>
+                <form id="flexcontact">
+                        <fieldset id="margin">
+                        <legend>Contact Us for more information</legend>
+                        <label class='block'>First Name:
+                                <input class='block' type="text" name="name" required>
+                         </label>
+            
+                         <label class='block'>Last Name:
+                                <input class='block' type="text" name="name" required>
+                         </label>
+            
+            
+            
+            
+                          <!---phone-->
+                        <label class='block'>Phone
+                                <input class='block'  type="tel" name="phone"
+                                placeholder="123-234-5555" maxlength="10">
+                         </label>
+            
+            
+                         <!---email-->
+                        <label class='block'>Email
+                               <input class='block' type="email" name="email"
+                               placeholder="someone@gmail.com" required>
+                        </label>
+                    </fieldset>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285013!2d-77.09772048502334!3d38.983255949484445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1554581318449!5m2!1sen!2sus" 
+                             width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </form>
+
+        
+
+    </main>
+    
+            <footer>
+
+                    <p> &copy; 2019 | Greg La Plant | <span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
+            
+                </footer>
+
+    
+    </body>
+    </html>
