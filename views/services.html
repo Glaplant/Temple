@@ -1,178 +1,170 @@
 <!Doctype html>
-<html lang="en-us">
-    <head>
-    <meta  charset="utf-8">
-    <meta  name="description" content="temple suites">
-    <meta  name="viewport" content="width = device width" , initial-scale=1, maximum-scale=1>
-    <title>Temple Inn and Suites</title>
-    <link href="../css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="../css/small.css" type="text/css" rel="stylesheet">
-    <link href="../css/medium.css" type="text/css" rel="stylesheet">
-    <link href="../css/large.css" type="text/css" rel="stylesheet">
-    <script src="../scripts/hamburger.js"></script>
-    </head>
-    <body>
+    <html lang="en-us">
+        <head>
+            <meta  charset="utf-8">
+            <meta  name="description" content="temple suites">
+            <meta  name="viewport" content="width = device width" , initial-scale=1, maximum-scale=1>
+            <title>Temple Inn and Suites</title>
+            <link href="../css/normalize.css" type="text/css" rel="stylesheet">
+            <link href="../css/small.css" type="text/css" rel="stylesheet">
+            <link href="../css/medium.css" type="text/css" rel="stylesheet">
+            <link href="../css/large.css" type="text/css" rel="stylesheet">
+            <script src="../scripts/hamburger.js"></script>
+        </head>
+        <body>
             <header>
-
-                    <picture>
-                        <source media="(min-width: 961px)" srcset="../images/logo1062x107.png">
-                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="../images/logo547x69.png">
-                        <source media="(max-width: 600px)" srcset="../images/logo274x53.png">
-                        <img src="../images/logo274x53.png" alt= "temple inn and suites logo">
-                    </picture>
-                   
-                </header>
-                <nav>
-                    <button onclick="toggleMenu()">&#9776;</button>
-                    <ul  id="primaryNav" class="hide">
-                        <li class="active">
-                            <a href="../index.html">Home</a> 
-                        </li>
-                        <li class="active">
-                            <a href="temple.html">Temple</a>
-                        </li>
-                        <li class="active">
-                            <a href="reservation.html">Reservations</a>
-                        </li>
-                        <li class="active">
-                            <a href="services.html">Services</a>
-                        </li>
-                        <li class="active">
-                            <a href="contact.html">Contact</a>
-                        </li>
-                  </ul>
+                <picture>
+                    <source media="(min-width: 961px)" srcset="../images/logo1062x107.png">
+                    <source media="(min-width: 601px) and (max-width: 960px)" srcset="../images/logo547x69.png">
+                    <source media="(max-width: 600px)" srcset="../images/logo274x53.png">
+                    <img src="../images/logo274x53.png" alt= "temple inn and suites logo">
+                </picture>
+            </header>
+            <nav>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul  id="primaryNav" class="hide">
+                    <li class="active">
+                        <a href="../index.html" title ="Home Page">Home</a> 
+                    </li>
+                    <li class="active">
+                        <a href="temple.html" title="Temple Info">Temple</a>
+                    </li>
+                    <li class="active">
+                        <a href="reservation.html" title="Make Reservations">Reservations</a>
+                    </li>
+                    <li class="active">
+                        <a href="services.html" title="Room Choices" >Rooms</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html" title="Contact Us">Contact</a>
+                    </li>
+                </ul>
             </nav>
+            <div class="heroimage">
+                <picture>
+                    <source media="(min-width:961px)" srcset="../images/slc1280x400.jpg">
+                    <source media="(min-width:601px) and (max-width:960px)" srcset="../images/slc960x300.jpg">
+                    <source media="(min-width:600px)" srcset="../images/slc600w.jpg">
+                    <img class="slcpositioning" src="../images/slc600w.jpg" alt="saltlake city temple">
+                </picture>
+            </div> 
+            <main>
+                <section class="page_flex">
+                    <div class="card card_flex">
+                        <h1 class="header_text"> Single Room</h1>
+                        <div class="horizontal_width">
+                        <picture>
+                            <source media="(min-width:961px)"  srcset="../images/hotelroom600w.jpg">
+                            <source media="(min-width:601px) and (max-width:960px)" srcset="../images/hotelroom500w.jpg">
+                            <source media="(max-width:600px)" srcset="../images/hotelroom500w.jpg">
+                            <img class ="imageposition" src="../images/hotelroom500w.jpg" alt="hotel room">
+                        </picture>
+                        </div>
+                        <div class="textbox">
+                            <ul>
+                                <li>One Queen Size Bed</li>
+                                <li>Sleeps 2</li>
+                                <li><a href="views/reservation.html">Reserve a room online</a></li>
+                                <li>or Call:  123.555.5555</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card card_flex">
+                        <h1 class="header_text"> Family Room</h1>
+                        <div class="horizontal_width">
+                        <picture>
+                            <source media="(min-width:961px)"  srcset="../images/hotelroom600w.jpg">
+                            <source media="(min-width:601px) and (max-width:960px)" srcset="../images/hotelroom500w.jpg">
+                            <source media="(max-width:600px)" srcset="../images/hotelroom500w.jpg">
+                            <img class ="imageposition" src="../images/hotelroom500w.jpg" alt="hotel room">
+                        </picture>
+                        </div>
+                        <div class="textbox">
+                            <ul>
+                                <li>Two Queen Size  Beds</li>
+                                <li>Sleeps 4</li>
+                                <li><a href="views/reservation.html">Reserve a room online</a></li>
+                                <li>or Call:  123.555.5555</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card card_flex">
+                        <h1 class="header_text">Large Suite</h1>
+                        <div class="horizontal_width">
+                            <picture>
+                                <source media="(min-width:961px)"  srcset="../images/hotelroom600w.jpg">
+                                <source media="(min-width:601px) and (max-width:960px)" srcset="../images/hotelroom500w.jpg">
+                                <source media="(max-width:600px)" srcset="../images/hotelroom500w.jpg">
+                                <img class ="imageposition" src="../images/hotelroom500w.jpg" alt="hotel room">
+                            </picture>
+                        </div>
+                        <div class="textbox">
+                            <ul>
+                                <li>Two Queen Size  Beds</li>
+                                <li>Sleeps 6</li>
+                                <li>Kitchenet</li>
+                                <li><a href="views/reservation.html">Reserve a room online</a></li>
+                                <li>or Call:  123.555.5555</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </section>
 
-    <div class="heroimage">
-        <picture>
-               <source media="(min-width:961px)" srcset="../images/slc1280x400.jpg">
-               <source media="(min-width:601px) and (max-width:960px)" srcset="../images/slc960x300.jpg">
-               <source media="(min-width:600px)" srcset="../images/slc600w.jpg">
-               <img class="slcpositioning" src="../images/slc600w.jpg" alt="saltlake city temple">
-           </picture>
+                <hr>
 
-        </div> 
-    <main>
-
-       
-    
-            <!----Specialized Services
-
-            Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes
-            A playroom and low-cost, short-term babysitting services for the children of patrons
-            Long-term stay accommodations in kitchenette suites for full-time temple missionaries
-            Temple history themed reception and sitting area
-            A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving
-            A family search center that supports family search and ordinance work
-            [Other ideas are welcome]
-
-            Free Amenities
-
-            Breakfast
-            Exercise/workout room
-            Indoor pool
-            WiFi high-speed internet access and smart TVs
-            Parking
-            Temple shuttle
-            Family history consultation and family ordinance card service-->
-           
-           
-           
-           
-           
-            <div id="roomsgrid">
-                    <div id="room1">
-            
-                        <h1> Single Room</h1>
-                        <img>
+                <section class="services_page_flex">
+                    <div >
+                        <h2>Specialized Services</h2>
                         <ul>
-                            <li>One Queen Size Bed</li>
-                            <li>Sleeps 2</li>
+                            <li> Free access to changing rooms</li>
+                            <li> Bathroom facilities for temple patrons to change from church clothes</li>
+                            <li> A playroom</li>
+                            <li> Short-term babysitting services </li>
+                            <li> Long-term stay accommodations </li>
+                            <li> Temple history themed lobby</li>
+                            <li> A wedding reception hall </li>
+                            <li> A family search center </li>
                         </ul>
-            
-                </div>
-                <div id="room2">
-                       <h1> Family Room</h1>
-                    <img>
-                    <ul>
-                            <li>Two Queen Size  Beds</li>
-                            <li>Sleeps 4</li>
+                    </div>
+                    <div >
+                        <h2>Free Amenities</h2>
+                        <ul>
+                            <li>Breakfast</li> 
+                            <li>Exercise/workout room</li> 
+                            <li>Indoor pool</li>
+                            <li>WiFi high-speed internet access and smart TVs</li>
+                            <li>Parking</li>
+                            <li>Temple shuttle</li>
+                            <li>Family history consultation and family ordinance card service</li>
                         </ul>
-                </div>
-                <div id="room3">
-            
-                    <h1>Large Suite</h1>
-                    <ul>
-                            <li>Two Queen Size  Beds</li>
-                            <li>Sleeps 6</li>
-                            <li>Kitchenet</li>
-                        </ul>
-                            <img>
-                </div>
-            </div> <h2>Specialized Services</h2>
+                    </div>
+                </section>
 
-
-
-                <ul>
-
-                   <li>Free access to changing rooms</li>
-                   <li> bathroom facilities for temple patrons to change from church clothes</li>
-                    <li>A playroom</li>
-                    <li> short-term babysitting services </li>
-                    <li> Long-term stay accommodations </li>
-                    <li> Temple history themed Lobby</li>
-                    <li>A wedding reception hall </li>
-                    <li>A family search center </li>
-                   
-            </ul>
-             <h2>Free Amenities</h2>
-             <ul>
-                   <li>Breakfast</li> 
-                   <li>Exercise/workout room</li> 
-                   <li>Indoor pool</li>
-                   <li>WiFi high-speed internet access and smart TVs</li>
-                   <li>Parking</li>
-                   <li>Temple shuttle</li>
-                   <li>Family history consultation and family ordinance card service</li>
-             </ul>
-
-
-             <form>
+                <hr>
+                
+                <form action="thankyou.html" method="POST">
                     <fieldset>
-                    <legend>Contact Us for more information</legend>
-                    <label class='block'>First Name:
-                            <input class='block' type="text" name="name" required>
-                     </label>
-        
-                     <label class='block'>Last Name:
-                            <input class='block' type="text" name="name" required>
-                     </label>
-        
-        
-        
-        
-                      <!---phone-->
-                    <label class='block'>Phone
-                            <input class='block'  type="tel" name="phone"
-                            placeholder="123-234-5555" maxlength="10">
-                     </label>
-        
-        
-                     <!---email-->
-                    <label class='block'>Email
-                           <input class='block' type="email" name="email"
-                           placeholder="someone@gmail.com" required>
-                    </label>
-                </fieldset>
+                            <legend>Contact us for more information</legend>
+                                <label class='block'>First Name:
+                                    <input class='block' type="text" name="name" required>
+                                </label>
+                                <label class='block'>Last Name:
+                                    <input class='block' type="text" name="name" required>
+                        </label>
+                        <label class='block'>Phone:
+                            <input class='block'  type="tel" name="phone" placeholder="123-234-5555" maxlength="10">
+                        </label>
+                        <label class='block'>Email
+                           <input class='block' type="email" name="email" placeholder="someone@gmail.com" required>
+                        </label>
+                        <input class="block" type="submit" name="submit" value="Send">
+                    </fieldset>
                 </form>
-    </main>
-   
+
+            </main>
+
             <footer>
-
-                    <p> &copy; 2019 | Greg La Plant | <span>interstice Design</span></p>
-            
-                </footer>
-
-    
-    </body>
+                <p> &copy; 2019 | Greg La Plant | <span>interstice Design</span></p>
+            </footer>
+        </body>
     </html>

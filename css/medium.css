@@ -76,6 +76,13 @@ nav ul li a{
     max-height:100%;
 }
 
+.services_page_flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 
 @media screen and (min-width:80rem){
  /** Cards**/
@@ -329,6 +336,7 @@ iframe{
 #roomsgrid{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    
 
 }
 }

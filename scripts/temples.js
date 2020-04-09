@@ -1,5 +1,5 @@
 let templeRequest = new XMLHttpRequest();
-let templeURLstring = "https://glaplant.github.io/CIT230/assignments/temple/json/templedata.json";
+let templeURLstring = "https://glaplant.github.io/Temple/json/templedata.json";
 templeRequest.open('GET' , templeURLstring, true);
 templeRequest.send();
 
@@ -11,17 +11,26 @@ templeRequest.send();
     
 
                        /*--Temple Name Headers----*/
+
+                       /*WINTER QUARTERS*/
     document.getElementById("name1").innerHTML= templeData.temples[1].name;
+                       /*PALMYRA*/
     document.getElementById("name2").innerHTML= templeData.temples[0].name;
-    document.getElementById("name3").innerHTML= templeData.temples[2].name;
-    document.getElementById("name4").innerHTML= templeData.temples[3].name;
+                         /*NAUVOO*/
+     document.getElementById("name3").innerHTML= templeData.temples[2].name;
+                         /*KANSAS CITY*/
+     document.getElementById("name4").innerHTML= templeData.temples[3].name;
 
 
                          /*--Temple Phone----*/
 
+                         /*WINTER QUARTERS*/
     document.getElementById("telephone1").innerHTML= templeData.temples[1].telephone;
+                         /*PALMYRA*/
     document.getElementById("telephone2").innerHTML= templeData.temples[0].telephone;
+                         /*NAUVOO*/
     document.getElementById("telephone3").innerHTML= templeData.temples[2].telephone;
+                    /*KANSAS CITY*/
     document.getElementById("telephone4").innerHTML= templeData.temples[3].telephone; 
   
 
