@@ -13,4 +13,9 @@ fieldset{
     margin-top:2em;
    
 }
+
+.hide_weather{
+    display:initial;
+
+}
 }
