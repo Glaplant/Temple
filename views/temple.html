@@ -64,6 +64,7 @@
 
        </div> 
     <main>
+        
      
 
         <!---Current Weather Summary API-->
@@ -82,22 +83,14 @@
       
         <div class="card card_flex">
            <h2 class="header_text" id="name1"></h2>
-           
-           <div class="horizontal_width">
+            <div class="horizontal_width weather_image">
                <picture>
                     <source media="(min-width:601px)"  srcset= "../images/wq600x400.jpg">
                     <source media="(max-width:600px)" srcset="../images/wq300x200.jpg">
                     <img class="imageposition" src="../images/wq300x200.jpg" alt="Winter Quarters Temple"> 
                 </picture> 
-           </div>
           
-                             <!---JSON-->
-           <div class="textbox">
-                <p  id="telephone1"></p>
-                <div id="article1"></div>
-
-
-            
+           <div class="weather_textbox">
                 <h2>Current Weather</h2>
                 <p id='current1'><span>&#8457;</span></p>
                 <p id= 'maxtemp1'>Max Temp<span>&#8457;</span></p>
@@ -105,7 +98,18 @@
                 <p id='windspeed1'>WindSpeed<span>&#8457;</span></p>
                 <p id='windchill1'>Windchill<span>&#8457;</span></p>
                 <p id= 'humidity1'>Humidity</p>
-            </div>
+           </div>
+        
+        </div>
+          
+                             <!---JSON-->
+           <div class="textbox">
+                <p  id="telephone1"></p>
+                <div id="article1"></div>
+           </div>
+
+        </div>
+         
 
             
                 
@@ -113,25 +117,20 @@
 
                
 
-        </div>
+        
         
 
                              <!---Palmyra--->
       <div class="card card_flex">
             <h2 class="header_text"  id="name2"></h2>
-        <div class="horizontal_width">
-          
-             <picture>
-                
-                 <source media="(min-width:601px)" srcset="../images/palmyra600x400.jpg">
-                 <source media="(min-width:600px)" srcset="../images/palmyra300x200.jpg">
+        <div class="horizontal_width weather_image">
+            <picture>
+                <source media="(min-width:601px)" srcset="../images/palmyra600x400.jpg">
+                <source media="(min-width:600px)" srcset="../images/palmyra300x200.jpg">
                 <img class="imageposition" src="../images/palmyra300x200.jpg" alt="palmyra temple"> 
               </picture>
-        </div>
-        <div class=textbox>
-                  <p id="telephone2">telephone</p>
-                  <div id="article2"></div>
 
+            <div class="weather_textbox">
                   <h2>Current Weather</h2>
                   <p id= 'current2'>Current Temp<span>&#8457;</span></p>
                   <p id= 'maxtemp2'>Max Temp<span>&#8457;</span></p>
@@ -139,29 +138,29 @@
                   <p id= 'windspeed2'>WindSpeed<span>&#8457;</span></p>
                   <p id= 'windchill2'>Windchill<span>&#8457;</span></p>
                   <p id= 'humidity2'>Humidity</p>
-                  
+            </div>
         </div>
+        
+        <div class="textbox">
+                  <p id="telephone2">telephone</p>
+                  <div id="article2"></div>
+        </div>
+
     </div>
 
                          <!---Nauvoo---> 
             
            <div class="card card_flex">
                 <h2 class="header_text" id="name3"></h2>
-                <div class="horizontal_width">
+                <div class="horizontal_width weather_image">
             <picture>
                 <source media="(min-width:601px)" srcset="../images/nauvoo600x400.jpg">
                 <source media="(min-width:600px)" srcset="../images/nauvoo300x200.jpg">
                 <img class="imageposition" src="../images/nauvoo300x200.jpg" alt="nauvoo temple"> 
             </picture> 
-            </div>
-                           <!--JSON-->
-           <div class=textbox>
-                <p id="telephone3">telephone</p>
-                <div id="article3"></div>
-            
-                            <!---API-->
-            
-               <h2>Current Weather</h2>
+
+            <div class="weather_textbox">
+                <h2>Current Weather</h2>
                 <p id= "current3">Current Temp<span>&#8457;</span></p>
                 <p id= "maxtemp3">Max Temp<span>&#8457;</span></p>
                 <p id= "mintemp3">Min Temp<span>&#8457;</span></p>
@@ -169,34 +168,48 @@
                 <p id= "windchill3">Windchill<span>&#8457;</span></p>
                 <p id= "humidity3">Humidity</p>
             </div>
+            </div>
+                           <!--JSON-->
+           <div class=textbox>
+                <p id="telephone3">telephone</p>
+                <div id="article3"></div>
+            </div>
+            
+                            <!---API-->
+            
+            
     </div>
 
                         <!---Kansas City--->
             <div class="card card_flex">
                     <h2 class="header_text"  id="name4"></h2>
-                    <div class="horizontal_width">
+                    <div class="horizontal_width weather_image">
                         <picture>
                             <source media="(min-width:601px)" srcset="../images/KC600x400.jpg">
                             <source media="(min-width:600px)" srcset="../images/KC300x200.jpg">
                             <img class="imageposition" src="../images/KC300x200.jpg" alt="kansas city temple"> 
                         </picture>
-                        </div>
+                   
+                    <div class="weather_textbox">
+                        <h2>Current Weather</h2>
+                        <p id="current4">Current Temp<span>&#8457;</span></p>
+                        <p id="maxtemp4">Max Temp<span>&#8457;</span></p>
+                        <p id="mintemp4">Min Temp<span>&#8457;</span></p>
+                        <p id="windspeed4">WindSpeed<span>&#8457;</span></p>
+                        <p id="windchill4">Windchill<span>&#8457;</span></p>
+                        <p id="humidity4">Humidity</p>
+                    </div>
+                    </div
 
                            <!---JSON-->
                    <div class=textbox>
                         <p id="telephone4">telephone</p>
                         <div id="article4"></div>
+                        </div>
             
                            <!---API-->
             
-             <h2>Current Weather</h2>
-                <p id="current4">Current Temp<span>&#8457;</span></p>
-                <p id="maxtemp4">Max Temp<span>&#8457;</span></p>
-                <p id="mintemp4">Min Temp<span>&#8457;</span></p>
-                <p id="windspeed4">WindSpeed<span>&#8457;</span></p>
-                <p id="windchill4">Windchill<span>&#8457;</span></p>
-                <p id="humidity4">Humidity</p>
-            </div>
+          
         </div>
       </div>
         
