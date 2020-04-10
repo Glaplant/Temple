@@ -99,6 +99,10 @@
 
 }
 
+.bottom_textbox{
+  background-color: white;
+}
+
 .header_text{
     color:white;
     text-align:center;
@@ -279,7 +283,11 @@ background-color:grey;
             display:none;
         }
 
-
+p:nth-child(1){
+font-weight: bold;
+font-family:"Open Sans", sans-serif ; 
+font-size: 1.4rem;
+}
 
 
 .hide_small{
