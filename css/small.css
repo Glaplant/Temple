@@ -100,9 +100,15 @@
 
 }
 
-.bottom_textbox{
-  background-color: white;
+.weather_textbox {
+    color:white;
+    text-shadow:2px 2px 4px #000;
+
 }
+
+
+
+
 
 .header_text{
     color:white;
